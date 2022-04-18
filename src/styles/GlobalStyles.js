@@ -12,8 +12,7 @@ export default createGlobalStyle`
 
   body {
     font-family: sans-serif;
-    background: ${colors.primaryDarkColor};
-    color: ${colors.primaryDarkColor};
+    background: #fff;
   }
 
   html, body, #root {
@@ -52,11 +51,19 @@ export default createGlobalStyle`
   .Toastify__progress-bar--success {
     background: blue;
   }
+
+  h1 {
+      color: #061b3d;
+      font-size: 34px;
+      font-weight: 600;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
 `;
 
 export const Container = styled.section`
   max-width: 360px;
-  background: #fff;
+  background: ${colors.primaryColor};
   margin: 30px auto;
   padding: 30px;
   border-radius: 4px;
